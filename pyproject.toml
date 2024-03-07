@@ -1,13 +1,9 @@
 [tool.poetry]
 name = "modape"
 version = "1.0.3"
-description = ""
-authors = [""]
+description = "Poetry-compatible version of WFP-VAM Modape"
+authors = ["Riccardo D'Ercole"]
 readme = "README.rst"
-
-packages = [
-    {include = "_version"}
-]
 
 [build-system]
 build-backend = 'setuptools.build_meta'
