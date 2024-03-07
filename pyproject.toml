@@ -6,7 +6,8 @@ authors = [""]
 readme = "README.rst"
 
 packages = [
-    {include = "_version"},
+    {include = "_version"}
+]
 
 [build-system]
 build-backend = 'setuptools.build_meta'
