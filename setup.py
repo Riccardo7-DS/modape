@@ -5,7 +5,7 @@
 from setuptools import setup, Extension, find_packages
 
 import numpy
-import _version
+# import _version
 USE_CYTHON = "auto"
 
 if USE_CYTHON:
@@ -41,7 +41,7 @@ for ext in ext_modules:
 setup(
     name="modape",
     description="MODIS Assimilation and Processing Engine",
-    version=_version.__version__,
+    version="1.0.3",
     author="Valentin Pesendorfer",
     author_email="valentin.pesendorfer@wfp.org",
     url="http://wfp-vam.github.io/modape",
