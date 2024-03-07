@@ -4,9 +4,8 @@
 
 from setuptools import setup, Extension, find_packages
 
-import _version
 import numpy
-
+import _version
 USE_CYTHON = "auto"
 
 if USE_CYTHON:

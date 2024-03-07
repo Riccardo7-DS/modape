@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "modape"
+version = "1.0.3"
+description = ""
+authors = [""]
+readme = "README.rst"
+
+
+[build-system]
+build-backend = 'setuptools.build_meta'
+requires = [
+    'setuptools >= 43.0.0',
+    'numpy  >= 1.16.1',
+]
